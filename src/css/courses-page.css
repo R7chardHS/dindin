@@ -25,9 +25,10 @@
     padding-left: 82px;
 }
 
-.container>div>div:not(:first-of-type) {
+.container>div:not(:first-of-type) {
     border-top: 5px solid #C4C4C4;
     padding-top: 108px;
+    margin-right: 82px;
 }
 
 h1 {
@@ -58,6 +59,7 @@ h2 {
 .box-course-description {
     display: flex;
     margin-bottom: 58px;
+    padding-left: 32px;
 }
 
 .box-course-description>div {
@@ -72,7 +74,6 @@ h2 {
     margin-top: 37px;
     margin-bottom: 53px;
     width: 724px;
-
 }
 
 .button {
@@ -87,4 +88,9 @@ h2 {
     background-color: #419488;
     text-align: center;
     padding: 13px 9px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
 }
